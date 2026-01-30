@@ -1,0 +1,20 @@
+*{
+  font-family:'Roboto',Sans-Serif;
+  margin:0;
+  padding:0;
+}
+nav{
+  display:flex;
+  justify-content: spacebetween;
+  background-color:black;
+  color:white;
+  padding:1.5rem;
+}
+nav input{
+  width:13rem;
+  padding:0.2rem;
+  height:1.5rem;
+  border:none;
+  outline:none;
+  font-size:1.2rem;
+}
