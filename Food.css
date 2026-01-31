@@ -64,4 +64,12 @@ nav {
 .icon i:hover{
   color:#e4742a;
 }
-
+.main{
+  display:flex;
+  justify-content: space-around;
+}
+.main img{
+  width:50%;
+  display:inline-block;
+  width:auto;
+}
