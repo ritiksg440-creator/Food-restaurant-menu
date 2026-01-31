@@ -6,15 +6,25 @@
 nav{
   display:flex;
   justify-content: space-between;
+  align-items:center;
   background-color:black;
   color:white;
-  padding:1.5rem;
+  padding:1.3rem;
 }
 nav input{
-  width:13rem;
-  padding:0.2rem;
+  width:14rem;
+  padding:0.4rem;
   height:1.5rem;
   border:none;
   outline:none;
   font-size:1.2rem;
+  border-radius:2px;
+}
+#head{
+  font-size:1.6rem;
+  margin-right:2rem;
+  color:#e4742a;
+}
+.input i{
+
 }
