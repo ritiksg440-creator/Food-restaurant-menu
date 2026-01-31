@@ -19,7 +19,7 @@ nav {
   
 }
 .input {
-  display: flex;
+ display:flex;
   align-items: center;
   background: white;
   padding: 0 0.6rem;
