@@ -3,28 +3,48 @@
   margin:0;
   padding:0;
 }
-nav{
-  display:flex;
-  justify-content: space-between;
-  align-items:center;
-  background-color:black;
-  color:white;
-  padding:1.3rem;
-}
-nav input{
-  width:14rem;
-  padding:0.4rem;
-  height:1.5rem;
-  border:none;
-  outline:none;
-  font-size:1.2rem;
-  border-radius:2px;
+nav {
+  display: flex;
+  align-items: center;
+
+  background-color: black;
+  color: white;
+  padding: 0.8rem 1rem;
+   /* crucial: prevent logo/input/icons from wrapping */
 }
 #head{
   font-size:1.6rem;
-  margin-right:2rem;
+  
   color:#e4742a;
+  
 }
-.input i{
+.input {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 0 0.6rem;
+  border-radius: 4px;
+  height: 2.2rem;
 
+  flex-grow: 1;        
+  margin: 0 1rem;      
 }
+
+.input input{
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  height: 100%;
+  width: 100%;
+  width:170px;
+}
+
+.input i{
+  color: gray;
+  font-size: 1rem;
+  cursor: pointer;
+  gap:1rem;
+  flex-shrink:0;
+  color:black;
+}
+
