@@ -117,3 +117,17 @@ nav {
   outline:none;
   border-radius:1rem;
 }
+.footer{
+  display:flex;
+  justify-content: space-around;
+  background-color: #fff;
+  padding:1.8rem;
+  margin-top:2.5rem;
+}
+.footer .txt{
+  color:black;
+}
+.txt p{
+  text-decoration:underline;
+  gap:1rem;
+}
