@@ -76,5 +76,20 @@ nav {
   align-items:center;
  justify-content:center;
  margin-top:7rem;
- height:40%;
+}
+.main button{
+  margin-top:1.5rem;
+  border:none;
+  border-radius:1rem;
+  outline:none;
+  padding:0.6rem;
+  background-color: #ed7022;
+}
+.main p{
+  color:#e8e5e3;
+  font-size:1.2rem;
+}
+.crd{
+  display:flex;
+  justify-content: center;
 }
