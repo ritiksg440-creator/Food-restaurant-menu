@@ -93,3 +93,10 @@ nav {
   display:flex;
   justify-content: center;
 }
+.crd card{
+  width:300px;
+  color:#fff;
+}
+.crd img{
+  width:90%;
+}
