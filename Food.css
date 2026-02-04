@@ -84,6 +84,7 @@ nav {
   outline:none;
   padding:0.6rem;
   background-color: #ed7022;
+  
 }
 .main p{
   color:#e8e5e3;
@@ -130,4 +131,8 @@ nav {
 .txt p{
   text-decoration:underline;
   gap:1rem;
+}
+ button:hover{
+  background-color: rgba(23,177,15,1);
+  box-shadow: 5px -5px 20px  rgba(23,177,15,1);
 }
